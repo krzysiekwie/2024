@@ -1,0 +1,145 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: dimgray;
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: lightgray;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 960px;
+  box-shadow: 0px 5px 20px 0px hsla(0, 0%, 20%, 0.4);
+  border-radius: 20px;
+  margin: 35px;
+}
+
+.header {
+  background-color: steelblue;
+  display: flex;
+  align-items: center;
+  height: 110px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.header-profile-img {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.header-profile {
+  color: white;
+  line-height: 1.4;
+}
+
+.header-profile h1 {
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+.header-profile div {
+  letter-spacing: 1px;
+}
+
+
+.info {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+
+
+.info-picture {
+  margin-right: 35px;
+  width: 50%;
+}
+
+.info-content {
+  width: 50%;
+}
+
+@media (max-width: 900px) or (orientation: portrait) {
+  .info {
+    flex-wrap: wrap;
+  }
+
+  .info-picture {
+    width: 100%;
+  }
+
+  .info-content {
+    width: 100%;
+    margin-top: 35px;
+  }
+
+}
+
+.info h2 {
+  margin: 0;
+}
+
+.info-headline .steel {
+  color: steelblue;
+}
+
+.info-signature {
+  width: 200px;
+}
+
+.info-contact {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.info-contact-btn {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: steelblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.info-contact-btn img {
+  width: 22px;
+  margin-right: 8px;
+}
+
+.info-contact-social {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 8px;
+  border-radius: 50%;
+}
+
+.info-contact-social img {
+  height: 13px;
+}
